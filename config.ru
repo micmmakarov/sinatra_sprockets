@@ -4,10 +4,6 @@ require 'bundler'
 
 Bundler.require
 
-assets = Sprockets::Environment.new
-  ['stylesheets', 'javascripts', 'images'].each do |dir|
-    assets.append_path(File.join('app', 'assets', dir))
-  end
 
 
 #Sinatra::Sprockets.configure do |config|

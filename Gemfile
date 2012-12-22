@@ -3,3 +3,5 @@ gem "sinatra", :require => "sinatra/base"
 gem 'haml-rails'
 gem 'jquery-rails'
 gem 'sprockets'
+gem 'pry'
+gem 'pry-nav'
